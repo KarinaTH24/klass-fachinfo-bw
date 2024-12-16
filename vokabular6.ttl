@@ -25,7 +25,7 @@ MIA:MIA103 a skos:Concept ;
     skos:inScheme MIA: .
 
 MIA:MIA108 a skos:Concept ;
-    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de ;
-    skos:prefLabel "Strategic Force Structures"@eng
+    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de ,
+    skos:prefLabel "Strategic Force Structures"@eng ;
     dct:title "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See" ;
     skos:inScheme MIA: .
