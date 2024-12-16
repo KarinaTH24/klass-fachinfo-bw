@@ -58,7 +58,7 @@ MIA:MIA001 a skos:Concept ;
         "General Military Encyclopedias, Lexicons, and Specialized Dictionaries"@en ;
     skos:scopeNote "ausg: MIH001 Fachenzyklopädien, Lexika und Fachwörterbücher der Landstreitkräfte und Landkriegführung; MIL001 Fachenzyklopädien, Lexika und Fachwörterbücher der Luftstreitkräfte und Luftkriegführung; MIM001 Fachenzyklopädien, Lexika und Fachwörterbücher der Marine und Seekriegführung"@de,
         "Ex: MIH001 Encyclopedias, Lexicons, and Specialized Dictionaries of Land Forces and Land Warfare; MIL001 Encyclopedias, Lexicons, and Specialized Dictionaries of Air Forces and Air Warfare; MIM001 Encyclopedias, Lexicons, and Specialized Dictionaries of Naval Forces and Naval Warfare."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA002 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
