@@ -30,7 +30,7 @@ MIA:MIA000 a skos:Concept ;
         "Military Affairs"@en ;
  skos:topConceptOf MIA: .
     
-    skos:narrower MIA:MIA001; MIA:MIA002; MIA:MIA008 ;
+    skos:narrower MIA:MIA001, MIA:MIA002, MIA:MIA008;
     skos:notation "MIA000" ;
     skos:prefLabel "Militärwesen"@de,
         "Military Affairs"@en ;
