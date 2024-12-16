@@ -29,14 +29,6 @@ MIA:MIA000 a skos:Concept ;
     dct:title "Militärwesen"@de,
         "Military Affairs"@en ;
  skos:topConceptOf MIA: .
-    
-    
-    skos:notation "MIA000" ;
-    skos:prefLabel "Militärwesen"@de,
-        "Military Affairs"@en ;
-    skos:scopeNote "Hinw.: Allgemeines"@de,
-        "Note: General"@en ;
-    skos:topConceptOf MIA: .
 
 MIA:MIA001 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
