@@ -545,7 +545,7 @@ MIA:MIA221 a skos:Concept ;
         "de"@en ;
     dct:title "Allgemeine Personalführung, Personalbearbeitung in Streitkräften"@de,
         "General personnel management, personnel processing in the armed forces"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Allgemeine Themen der Personalführung",
         "Personalbearbeitung in den Streitkäften" ;
     skos:notation "MIA221" ;
