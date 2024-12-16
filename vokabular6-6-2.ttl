@@ -470,7 +470,7 @@ MIA:MIA213 a skos:Concept ;
         "de"@en ;
     dct:title "Soldatinnen"@de,
         "Female soldiers"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Personalbedarf",
         "Personalplanung",
         "Personalstruktur der Streitkräfte" ;
