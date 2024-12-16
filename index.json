@@ -1,1 +1,1 @@
-[{"id":"https://example.org/MIA#","title":{"de":"Klassifikation Bundeswehr"},"dc_title":null,"prefLabel":null,"description":null,"dc_description":null,"languages":["de"]}]
+[{"id":"https://w3id.org/fachinfo-bw/scheme","title":{"de":"Klassifikation FachInfoUstgBw, 3. Auflage 2020","en":null},"dc_title":null,"prefLabel":null,"description":null,"dc_description":null,"languages":["de","en"]},{"id":"https://example.org/MIA#","title":{"de":"Klassifikation Bundeswehr","en":null},"dc_title":null,"prefLabel":null,"description":null,"dc_description":null,"languages":["de"]}]
