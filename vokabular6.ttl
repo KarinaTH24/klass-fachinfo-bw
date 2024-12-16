@@ -7,7 +7,7 @@ MIA: a skos:ConceptScheme ;
   dct:title "Klassifikation FachInfoUstgBw, 3. Auflage 2020"@de ;
   dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
   skos:hasTopConcept MIA:, MIA:MIA000, MIA:MIA001, MIA:MIA002, MIA:MIA008, MIA:MIA100, MIA:MIA103, MIA:MIA108, MIA:MIA110, MIA:MIA120, MIA:MIA130, MIA:MIA135, MIA:MIA140, MIA:MIA141, MIA:MIA143, MIA:MIA144, MIA:MIA145, MIA:MIA150, MIA:MIA200, MIA:MIA201, MIA:MIA202, MIA:MIA203, MIA:MIA207, MIA:MIA210, MIA:MIA211, MIA:MIA212, MIA:MIA213, MIA:MIA215, MIA:MIA218, MIA:MIA220, MIA:MIA221, MIA:MIA230, MIA:MIA240, MIA:MIA250, MIA:MIA260, MIA:MIA270, MIA:MIA280, MIA:MIA281, MIA:MIA282, MIA:MIA283.
-  vann:preferredNamespaceUri "https://example.org/KlassBW#" .
+  vann:preferredNamespaceUri "https://example.org/MIA#" .
 
 MIA: a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
