@@ -75,7 +75,7 @@ MIA:MIA002 a skos:Concept ;
         "General Military Bibliographies"@en ;
     skos:scopeNote "ausg: MIH002 Fachbibliographien der Landstreitkräfte und Landkriegführung; MIL002 Fachbibliographien der Luftstreitkräfte und Luftkriegführung; MIM002 Fachbibliographien der Marine und Seekriegführung"@de,
         "Ex: MIH002 Specialized Bibliographies of Land Forces and Land Warfare; MIL002 Specialized Bibliographies of Air Forces and Air Warfare; MIM002 Specialized Bibliographies of Naval Forces and Naval Warfare."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA008 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -92,7 +92,7 @@ MIA:MIA008 a skos:Concept ;
         "Personalities of the Armed Forces"@en ;
     skos:scopeNote "Hinw.: Biographien; ausg: MIH008 Persönlichkeiten der Landstreitkräfte; MIL008 Persönlichkeiten der Luftstreitkräfte; MIM008 Persönlichkeiten der Seestreitkräfte"@de,
         "Note: Biographies; Ex: MIH008 Personalities of Land Forces; MIL008 Personalities of Air Forces; MIM008 Personalities of Naval Forces."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA100 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -108,7 +108,7 @@ MIA:MIA100 a skos:Concept ;
     skos:notation "MIA100" ;
     skos:prefLabel "Wehrsysteme, Gesamtstreitkräfte, strategische Truppengliederungen, paramilitärische Organisationen"@de,
         "Defense Systems"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA103 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -125,7 +125,7 @@ MIA:MIA103 a skos:Concept ;
         "Unified Armed Forces"@en ;
     skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de,
         "Note: ALWAYS assign a corresponding MIG... notation."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA108 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -142,7 +142,7 @@ MIA:MIA108 a skos:Concept ;
         "Strategic Force Structures"@en ;
     skos:scopeNote "Hinw: Auch Personen von SA und SS (Biographien)"@de,
         "Note: Also includes individuals from SA and SS (Biographies)."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
    
 MIA:MIA110 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -159,7 +159,7 @@ MIA:MIA110 a skos:Concept ;
         "Paramilitary Organizations"@en ;
     skos:scopeNote "Hinw: zB Wehrpflichtarmee, Berufsarmee, Milizsystem"@de,
         "Note: Examples include conscription armies, professional armies, and militia systems."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA120 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -176,7 +176,7 @@ MIA:MIA120 a skos:Concept ;
         "History of Defense Systems, Unified Armed Forces, Strategic Force Structures, and Paramilitary Organizations"@en ;
     skos:scopeNote "Hinw: Gesamtdarstellungen der Streitkräfte, einschließlich ihrer Wehrstruktur, Gliederung und Organisation."@de,
         "Note: Comprehensive overviews of armed forces, including their defense structure, composition, and organization."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA130 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -209,7 +209,7 @@ MIA:MIA135 a skos:Concept ;
         "Strategic and Cross-Service Operational Force Structures and Command Areas"@en ;
     skos:scopeNote "ausg: MIP200 Internationale oder supranationale Friedenstruppe und Beobachter; MIH113 Nationale und multinationale Großverbände der Landstreitkräfte; MIM113 Nationale und multinationale Flotten und Großverbände der Seestreitkräfte, Marine-Einsatzgruppen; MIL113 Nationale und multinationale Großverbände der Luftstreitkräfte"@de,
         "Ex: MIP200 International or Supranational Peacekeeping Forces and Observers; MIH113 National and Multinational Large Formations of Land Forces; MIM113 National and Multinational Fleets and Large Formations of Naval Forces, Naval Task Forces; MIL113 National and Multinational Large Formations of Air Forces."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA140 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -249,7 +249,7 @@ MIA:MIA141 a skos:Concept ;
     skos:scopeNote """ausg: MIM170 Küstenwache in Gesamtdarstellungen, Verbände der Küstenwache
 siehe: MIK540 Grenzsicherung"""@de,
         "Ex: MIM170 Coast Guard in Comprehensive Representations, Coast Guard Units; See: MIK540 Border Security."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA143 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -266,7 +266,7 @@ MIA:MIA143 a skos:Concept ;
         "Guerrilla Organizations, Paramilitary Liberation Movements"@en ;
     skos:scopeNote "siehe: MIH362 Guerillakriegführung,Guerillataktik; POL551 Innere Unruhen, Aufstand, Revolution, Staatsstreich; POL632 Separatistische Bewegungen"@de,
         "See: MIH362 Guerrilla Warfare, Guerrilla Tactics; POL551 Internal Disturbances, Uprising, Revolution, Coup d'État; POL632 Separatist Movements."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA144 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -281,7 +281,7 @@ MIA:MIA144 a skos:Concept ;
     skos:notation "MIA144" ;
     skos:prefLabel "Bewaffnete Verbände nichtstaatlicher Organisationen"@de,
         "Armed Groups of Non-State Organizations"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA145 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -296,7 +296,7 @@ MIA:MIA145 a skos:Concept ;
     skos:notation "MIA145" ;
     skos:prefLabel "Historische Ritterorden"@de,
         "Historical Knightly Orders"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA150 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -314,7 +314,7 @@ MIA:MIA150 a skos:Concept ;
     skos:scopeNote """Hinw: zB DOSAAF, GST, NSFK, NSKK ...
 siehe: MIS620 Militärische Sportarten, Wehrsportarten, vormilitärische Ausbildung"""@de,
         "Note: Examples include DOSAAF, GST, NSFK, NSKK...; See: MIS620 Military Sports, Defense Sports, Premilitary Training."@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA200 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -332,7 +332,7 @@ MIA:MIA200 a skos:Concept ;
         "Human resources in the armed forces in general"@en ;
     skos:scopeNote "Hinw: Bei teilstreitkraftspezifischen Dokumenten klassiere zusätzlich MIH114, MIL114, MIM114. Siehe: BWL500, VWW410, MIS220"@de,
         "Note: For branch-specific documents, also classify MIH114, MIL114, MIM114. See: BWL500, VWW410, MIS220"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA201 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -348,7 +348,7 @@ MIA:MIA201 a skos:Concept ;
     skos:notation "MIA201" ;
     skos:prefLabel "Fachenzyklopädien, Lexika und Fachwörterbücher des allgemein militärischen Personalwesens"@de,
         "Specialist encyclopedias, encyclopedias and specialist dictionaries for general military personnel management"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA202 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -365,7 +365,7 @@ MIA:MIA202 a skos:Concept ;
     skos:notation "MIA202" ;
     skos:prefLabel "Fachbibliographien des allgemeinen militärischen Personalwesens"@de,
         "Specialist bibliographies of general military personnel management"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA203 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -399,7 +399,7 @@ MIA:MIA207 a skos:Concept ;
     skos:notation "MIA207" ;
     skos:prefLabel "Organisation und Institutionen des allgemeinen militärischen Peronalwesens"@de,
         "Organization and institutions of general military personnel"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA210 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -415,7 +415,7 @@ MIA:MIA210 a skos:Concept ;
     skos:notation "MIA210" ;
     skos:prefLabel "Personalplanung, Personalbedarf, Personalstruktur der Streitkräfte"@de,
         "Personnel planning, personnel requirements, personnel structure of the armed forces"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA211 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -437,7 +437,7 @@ MIA:MIA211 a skos:Concept ;
 siehe:MIA441 Administrative und organisatorische Aufgaben auf dem Personalsektor"""@de,
         """Note: Measures to implement the Conscription Act, in particular to cover the armed forces' personnel needs for basic military service and military training
 see:MIA441 Administrative and organizational tasks in the human resources sector"""@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA212 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -459,7 +459,7 @@ MIA:MIA212 a skos:Concept ;
 BWL511 Personalbeschaffung, Personalbeurteilung"""@de,
         """see: MIS461 Public relations of the armed forces, maintaining partnerships with units of allied armed forces PSY250 Business and advertising psychology
 BWL511 Personnel recruitment, personnel assessment"""@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA213 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -477,7 +477,7 @@ MIA:MIA213 a skos:Concept ;
     skos:notation "MIA213" ;
     skos:prefLabel "Soldatinnen"@de,
         "Female soldier"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA215 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -495,7 +495,7 @@ MIA:MIA215 a skos:Concept ;
     skos:notation "MIA214" ;
     skos:prefLabel "Reservistenarbeit"@de,
         "reservist work"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA218 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -515,7 +515,7 @@ MIA:MIA218 a skos:Concept ;
         "civilian personnel in the military"@en ;
     skos:scopeNote "siehe:VWW410 Personalführung in der öffentlichen Verwaltung"@de,
         "see:VWW410 Personnel management in public administration"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA220 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -534,7 +534,7 @@ MIA:MIA220 a skos:Concept ;
         "General personnel management, personnel processing in the armed forces"@en ;
     skos:scopeNote "siehe:MIA441 Administrative und organisatorische Aufgaben auf dem Personalsektor MIP611 Betriebskosten"@de,
         "see:MIA441 Administrative and organizational tasks in the personnel sector MIP611 Operating costs"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA221 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -553,7 +553,7 @@ MIA:MIA221 a skos:Concept ;
         "Military personnel management systems and personnel information systems"@en ;
     skos:scopeNote "siehe:BWL516 Personalführungs- und Personalinformationssysteme in der gewerblichen Wirtschaft MIT334 Militärische Führungsinfor-mationssysteme, Gefechtsstand- und Lagedarstellungstechnik, FüWES VWW416 Personalführungs- und Personalinformationssystem"@de,
         "see:BWL516 Personnel management and personnel information systems in industry MIT334 Military command and control information systems, command post and situation display technology, FüWES VWW416 Personnel management and personnel information system"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA230 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -568,7 +568,7 @@ MIA:MIA230 a skos:Concept ;
     skos:notation "MIA230" ;
     skos:prefLabel "Personalauswahl"@de,
         "Selection of personnel"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA240 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -583,7 +583,7 @@ MIA:MIA240 a skos:Concept ;
     skos:notation "MIA240" ;
     skos:prefLabel "Versetzung, Kommandierung"@de,
         "Transfer, command"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA250 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -600,7 +600,7 @@ MIA:MIA250 a skos:Concept ;
         "Termination of employment, soldier's pension"@en ;
     skos:scopeNote "ausg:MIA330 Recht der Fürsorge für Soldaten, militärisches Besoldungs- und Versorgungsrecht, Urlaubsrecht"@de,
         "exg:MIA330 Law on the welfare of soldiers, military pay and pension law, leave law"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA260 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -615,7 +615,7 @@ MIA:MIA260 a skos:Concept ;
     skos:notation "MIA260" ;
     skos:prefLabel "Personalführung der Mannschaften"@de,
         " Personnel management of crews"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA270 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -632,7 +632,7 @@ MIA:MIA270 a skos:Concept ;
         "Personnel management of non-commissioned officers"@en ;
     skos:scopeNote "Hinw:einschließlich Fähnriche (Feldwebelleutnante) als Dienstgradgruppe"@de,
         "Note:including ensigns (sergeants) as a rank group"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA280 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -648,7 +648,7 @@ MIA:MIA280 a skos:Concept ;
     skos:notation "MIA280" ;
     skos:prefLabel "Personalführung der Offiziere"@de,
         "Personnel management of Officers"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA281 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -664,7 +664,7 @@ MIA:MIA281 a skos:Concept ;
     skos:notation "MIA281" ;
     skos:prefLabel "Personalführung der Leutnante und Hauptleute"@de,
         "Personnel management of lieutenants and captains"@en ;
-   kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA282 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -680,7 +680,7 @@ MIA:MIA282 a skos:Concept ;
     skos:notation "MIA282" ;
     skos:prefLabel "Personalführung der Stabsoffiziere"@de,
         "Personnel management of staff officers"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
 MIA:MIA283 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
@@ -696,5 +696,5 @@ MIA:MIA283 a skos:Concept ;
     skos:notation "MIA283" ;
     skos:prefLabel "Personalführung der Generale und Admirale"@de,
         "Personnel management of generals and admirals"@en ;
-    kos:topConceptOf MIA: .
+    skos:topConceptOf MIA: .
 
