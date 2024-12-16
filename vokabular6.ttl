@@ -4,7 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 MIA: a skos:ConceptScheme ;
-    dct:title "Klassifikation Bundeswehr"@de ;
+    dct:title "MIlitärwesen Allgemein"@de ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept MIA:MIA100, MIA:MIA102 ;
     vann:preferredNamespaceUri "https://example.org/MIA#" .
@@ -22,4 +22,10 @@ MIA:MIA102 a skos:Concept ;
 
 MIA:MIA103 a skos:Concept ;
     skos:prefLabel "Geschichte der Wehrsysteme"@de ;
+    skos:inScheme MIA: .
+
+MIA:MIA108 a skos:Concept ;
+    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de ;
+    skos:prefLabel "Strategic Force Structures"@eng
+    dct:title "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See" ;
     skos:inScheme MIA: .
