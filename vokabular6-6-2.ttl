@@ -343,7 +343,7 @@ MIA:MIA201 a skos:Concept ;
         "de"@en ;
     dct:title "Fachenzyklopädien, Lexika und Fachwörterbücher des allgemein militärischen Personalwesens"@de,
         "Encyclopedias, lexicons, and specialized dictionaries of general military personnel management"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Nachschlagewerke zum Thema des allgemeinen Personalwesens" ;
     skos:notation "MIA201" ;
     skos:prefLabel "Fachenzyklopädien, Lexika und Fachwörterbücher des allgemein militärischen Personalwesens"@de,
