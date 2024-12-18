@@ -28,3 +28,21 @@ MIA:MIA108 a skos:Concept ;
     skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de , "Testengl"@en ;
     dct:title "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See" ;
     skos:inScheme MIA: .
+
+MIA:MIA200 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Personalwesen in den Streitkräften der Bundeswehr"@de,
+        "Human resources in the armed forces of the Bundeswehr"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Personalwesen in den Streitkräften allgemein"@de,
+        "Personnel management in the armed forces in general"@en ;
+    skos:inScheme MIA: ;
+    skos:narrower MIA:MIA201, MIA:MIA202, MIA:MIA203, MIA:MIA203, MIA:MIA207, MIA:MIA210 ;
+    skos:notation "MIA200" ;
+    skos:prefLabel "Personalwesen in den Streitkräften allgemein"@de,
+        "Human resources in the armed forces in general"@en ;
+    skos:scopeNote "Hinw: Bei teilstreitkraftspezifischen Dokumenten klassiere zusätzlich MIH114, MIL114, MIM114. Siehe: BWL500, VWW410, MIS220"@de,
+        "Note: For branch-specific documents, also classify MIH114, MIL114, MIM114. See: BWL500, VWW410, MIS220"@en ;
+    skos:topConceptOf MIA: .
