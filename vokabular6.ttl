@@ -89,7 +89,7 @@ MIA:MIA203 a skos:Concept ;
         "de"@en ;
     dct:title "Geschichte des allgemeinen militärischen Personalwesens"@de,
         "History of general military personnel management"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Fachbibliographien des allgemeinen militärischen Personalwesens" ;
     skos:notation "MIA203" ;
     skos:prefLabel "Geschichte des allgemeinen militärischen Personalwesens"@de,
@@ -183,7 +183,7 @@ MIA:MIA213 a skos:Concept ;
         "de"@en ;
     dct:title "Soldatinnen"@de,
         "Female soldiers"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Personalbedarf",
         "Personalplanung",
         "Personalstruktur der Streitkräfte" ;
@@ -258,7 +258,7 @@ MIA:MIA221 a skos:Concept ;
         "de"@en ;
     dct:title "Allgemeine Personalführung, Personalbearbeitung in Streitkräften"@de,
         "General personnel management, personnel processing in the armed forces"@en ;
-    sskos:inScheme MIA: ;
+    skos:inScheme MIA: ;
     skos:narrower "Allgemeine Themen der Personalführung",
         "Personalbearbeitung in den Streitkäften" ;
     skos:notation "MIA221" ;
