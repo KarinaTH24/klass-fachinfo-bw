@@ -29,6 +29,299 @@ MIA:MIA108 a skos:Concept ;
     dct:title "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See" ;
     skos:inScheme MIA: .
 
+MIA:MIA000 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Allgemeine Themen des Militärwesens"@de,
+        "General topics of military science"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Militärwesen"@de,
+        "Military Affairs"@en ;
+    skos:inScheme MIA: ;
+    skos:narrower MIA:MIA001, MIA:MIA002, MIA:MIA008 ;
+    skos:notation "MIA000" ;
+    skos:prefLabel "Militärwesen"@de,
+        "Military Affairs"@en ;
+    skos:scopeNote "Hinw.: Allgemeines"@de,
+        "Note: General"@en ;
+    skos:topConceptOf MIA: .
+
+MIA:MIA001 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Fachenzyklopädien, Lexika und Fachwörterbücher, die allgemeine Themen des Militärwesens beinhalten"@de,
+        "Encyclopedias, lexicons, and specialized dictionaries covering general military topics"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Allgemeine militärische Fachenzyklopädien, Lexika und Fachwörterbücher"@de,
+        "General military encyclopedias, lexicons, and specialized dictionaries"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA001" ;
+    skos:prefLabel "Allgemeine militärische Fachenzyklopädien, Lexika und Fachwörterbücher"@de,
+        "General Military Encyclopedias, Lexicons, and Specialized Dictionaries"@en ;
+    skos:scopeNote "ausg: MIH001 Fachenzyklopädien, Lexika und Fachwörterbücher der Landstreitkräfte und Landkriegführung; MIL001 Fachenzyklopädien, Lexika und Fachwörterbücher der Luftstreitkräfte und Luftkriegführung; MIM001 Fachenzyklopädien, Lexika und Fachwörterbücher der Marine und Seekriegführung"@de,
+        "Ex: MIH001 Encyclopedias, Lexicons, and Specialized Dictionaries of Land Forces and Land Warfare; MIL001 Encyclopedias, Lexicons, and Specialized Dictionaries of Air Forces and Air Warfare; MIM001 Encyclopedias, Lexicons, and Specialized Dictionaries of Naval Forces and Naval Warfare."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA002 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Fachbibliographien, die allgemeine Themen des Militärwesens beinhalten"@de,
+        "Bibliographies covering general military topics"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Allgemeine militärische Fachbibliographien"@de,
+        "General military bibliographies"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA002" ;
+    skos:prefLabel "Allgemeine militärische Fachbibliographien"@de,
+        "General Military Bibliographies"@en ;
+    skos:scopeNote "ausg: MIH002 Fachbibliographien der Landstreitkräfte und Landkriegführung; MIL002 Fachbibliographien der Luftstreitkräfte und Luftkriegführung; MIM002 Fachbibliographien der Marine und Seekriegführung"@de,
+        "Ex: MIH002 Specialized Bibliographies of Land Forces and Land Warfare; MIL002 Specialized Bibliographies of Air Forces and Air Warfare; MIM002 Specialized Bibliographies of Naval Forces and Naval Warfare."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA008 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See"@de,
+        "Significant individuals who played an important role in the history and development of a country's military institutions, without specializing in land, air, or sea"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Persönlichkeiten der Streitkräfte"@de,
+        "Personalities of the armed forces"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA008" ;
+    skos:prefLabel "Persönlichkeiten der Streitkräfte"@de,
+        "Personalities of the Armed Forces"@en ;
+    skos:scopeNote "Hinw.: Biographien; ausg: MIH008 Persönlichkeiten der Landstreitkräfte; MIL008 Persönlichkeiten der Luftstreitkräfte; MIM008 Persönlichkeiten der Seestreitkräfte"@de,
+        "Note: Biographies; Ex: MIH008 Personalities of Land Forces; MIL008 Personalities of Air Forces; MIM008 Personalities of Naval Forces."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA100 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Alle militärischen Strukturen und Einheiten eines Landes, von der nationalen Verteidigung bis hin zu nichtstaatlichen militärischen Gruppen."@de,
+        "All military structures and units of a country, from national defense to non-state military groups"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Wehrsysteme, Gesamtstreitkräfte, strategische Truppengliederungen, paramilitärische Organisationen"@de,
+        "Military systems, overall armed forces, strategic troop structures, paramilitary organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:narrower MIA:MIA103, MIA:MIA108 ;
+    skos:notation "MIA100" ;
+    skos:prefLabel "Wehrsysteme, Gesamtstreitkräfte, strategische Truppengliederungen, paramilitärische Organisationen"@de,
+        "Defense Systems"@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA103 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Die Entwicklung und Veränderung militärischer Strukturen und deren Rolle in der nationalen und internationalen Sicherheit."@de,
+        "The development and change of military structures and their role in national and international security"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de,
+        "History of military systems, overall armed forces, strategic troop structures, and paramilitary organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA103" ;
+    skos:prefLabel "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de,
+        "Unified Armed Forces"@en ;
+    skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de,
+        "Note: ALWAYS assign a corresponding MIG... notation."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA108 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Mitglieder von Gruppen, die militärische Fähigkeiten besitzen, aber nicht Teil des regulären Militärs sind."@de,
+        "Members of groups with military capabilities, but not part of the regular military"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Personen paramilitärischer und vormilitärischer Organisationen"@de,
+        "Individuals in paramilitary and pre-military organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA108" ;
+    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de,
+        "Strategic Force Structures"@en ;
+    skos:scopeNote "Hinw: Auch Personen von SA und SS (Biographien)"@de,
+        "Note: Also includes individuals from SA and SS (Biographies)."@en ;
+    kos:topConceptOf MIA: .
+   
+MIA:MIA110 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Alle militärischen und sicherheitsrelevanten Strukturen eines Landes, die der Verteidigung dienen."@de,
+        "All military and security-related structures of a country serving defense purposes"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Wehrsysteme"@de,
+        "Military systems"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA110" ;
+    skos:prefLabel "Wehrsysteme"@de,
+        "Paramilitary Organizations"@en ;
+    skos:scopeNote "Hinw: zB Wehrpflichtarmee, Berufsarmee, Milizsystem"@de,
+        "Note: Examples include conscription armies, professional armies, and militia systems."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA120 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Gesamtheit der militärischen Einheiten eines Landes, einschließlich aller Teilstreitkräfte"@de,
+        "The entirety of a country's military units, including all branches of the armed forces"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Gesamtstreitkräfte"@de,
+        "Overall armed forces"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA120" ;
+    skos:prefLabel "Gesamtstreitkräfte"@de,
+        "History of Defense Systems, Unified Armed Forces, Strategic Force Structures, and Paramilitary Organizations"@en ;
+    skos:scopeNote "Hinw: Gesamtdarstellungen der Streitkräfte, einschließlich ihrer Wehrstruktur, Gliederung und Organisation."@de,
+        "Note: Comprehensive overviews of armed forces, including their defense structure, composition, and organization."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA130 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Koordinieren und leiten militärische Operationen über verschiedene Teilstreitkräfte und Länder hinweg."@de,
+        "Coordinating and leading military operations across various branches of the armed forces and countries"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Strategische und teilstreitkraftübergreifende operative Truppengliederungen und Kommandobereiche"@de,
+        "Strategic and inter-branch operational troop structures and command areas"@en ;
+    skos:inScheme MIA: ;
+    skos:narrower MIA:MIA135 ;
+    skos:notation "MIA130" ;
+    skos:prefLabel "Strategische und teilstreitkraftübergreifende operative Truppengliederungen und Kommandobereiche"@de,
+        "Individuals in Paramilitary and Premilitary Organizations"@en ;
+    skos:topConceptOf MIA: .
+
+MIA:MIA135 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Bestehen aus militärischen Einheiten verschiedener Länder, die gemeinsam unter einer einzigen Führung operieren."@de,
+        "Consisting of military units from different countries operating together under a single command"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Teilstreitkraftübergreifende multinationale Streitkräfte"@de,
+        "Inter-branch multinational armed forces"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA135" ;
+    skos:prefLabel "Teilstreitkraftübergreifende multinationale Streitkräfte"@de,
+        "Strategic and Cross-Service Operational Force Structures and Command Areas"@en ;
+    skos:scopeNote "ausg: MIP200 Internationale oder supranationale Friedenstruppe und Beobachter; MIH113 Nationale und multinationale Großverbände der Landstreitkräfte; MIM113 Nationale und multinationale Flotten und Großverbände der Seestreitkräfte, Marine-Einsatzgruppen; MIL113 Nationale und multinationale Großverbände der Luftstreitkräfte"@de,
+        "Ex: MIP200 International or Supranational Peacekeeping Forces and Observers; MIH113 National and Multinational Large Formations of Land Forces; MIM113 National and Multinational Fleets and Large Formations of Naval Forces, Naval Task Forces; MIL113 National and Multinational Large Formations of Air Forces."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA140 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Bewaffnete Gruppen, die nicht Teil des regulären Militärs sind, aber ähnliche Strukturen und Taktiken verwenden"@de,
+        "Armed groups that are not part of the regular military but use similar structures and tactics"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Paramilitärische Organisationen"@de,
+        "Paramilitary organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:narrower MIA:MIA141, MIA:MIA142, MIA:MIA143, MIA:MIA144, MIA:MIA145 ;
+    skos:notation "MIA140" ;
+    skos:prefLabel "Paramilitärische Organisationen"@de,
+        "Cross-Service Multinational Armed Forces"@en ;
+    skos:topConceptOf MIA: .
+
+MIA:MIA141 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Paramilitärische oder militärische Einheiten, die primär für die Aufrechterhaltung der öffentlichen Ordnung und die Bekämpfung von inneren Unruhen innerhalb eines Staates zuständig sind"@de,
+        "Spezialisierte Sicherheitskräfte, die für die Überwachung, Kontrolle und Sicherung von nationalen Grenzen zuständig sind"@de,
+        "Paramilitary or military units primarily responsible for maintaining public order and combating internal unrest within a state"@en,
+        "Specialized security forces responsible for monitoring, controlling, and securing national borders"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Grenztruppen, Grenzpolizei"@de,
+        "Innere Truppen"@de,
+        "Border troops, border police"@en,
+        "Internal troops"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA141" ;
+    skos:prefLabel "Grenztruppen, Grenzpolizei"@de,
+        "Innere Truppen"@de,
+        "Border Troops, Border Police"@en,
+        "Internal Troops"@en ;
+    skos:scopeNote """ausg: MIM170 Küstenwache in Gesamtdarstellungen, Verbände der Küstenwache
+siehe: MIK540 Grenzsicherung"""@de,
+        "Ex: MIM170 Coast Guard in Comprehensive Representations, Coast Guard Units; See: MIK540 Border Security."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA143 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Bewaffnete Gruppen, die unkonventionelle Kriegsführung einsetzen, um politische, soziale oder ideologische Ziele zu erreichen."@de,
+        "Armed groups using unconventional warfare to achieve political, social, or ideological goals"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Guerillaorganisationen, Paramilitärische Befreiungsbewegungen"@de,
+        "Guerrilla organizations, paramilitary liberation movements"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA143" ;
+    skos:prefLabel "Guerillaorganisationen, Paramilitärische Befreiungsbewegungen"@de,
+        "Guerrilla Organizations, Paramilitary Liberation Movements"@en ;
+    skos:scopeNote "siehe: MIH362 Guerillakriegführung,Guerillataktik; POL551 Innere Unruhen, Aufstand, Revolution, Staatsstreich; POL632 Separatistische Bewegungen"@de,
+        "See: MIH362 Guerrilla Warfare, Guerrilla Tactics; POL551 Internal Disturbances, Uprising, Revolution, Coup d'État; POL632 Separatist Movements."@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA144 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Gruppen, die militärische oder paramilitärische Aktivitäten durchführen, jedoch keine formellen staatlichen Akteure sind."@de,
+        "Groups conducting military or paramilitary activities, but not formal state actors"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Bewaffnete Verbände nichtstaatlicher Organisationen"@de,
+        "Armed groups of non-state organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA144" ;
+    skos:prefLabel "Bewaffnete Verbände nichtstaatlicher Organisationen"@de,
+        "Armed Groups of Non-State Organizations"@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA145 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Organisationen oder Gemeinschaften, die im Mittelalter und der frühen Neuzeit entstanden sind."@de,
+        "Organizations or communities that emerged in the Middle Ages and early modern period"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Historische Ritterorden"@de,
+        "Historical knightly orders"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA145" ;
+    skos:prefLabel "Historische Ritterorden"@de,
+        "Historical Knightly Orders"@en ;
+    kos:topConceptOf MIA: .
+
+MIA:MIA150 a skos:Concept ;
+    dct:audience "Angehörige der  Bundeswehr",
+        "Members of the Bundeswehr" ;
+    dct:description "Bieten militärische Ausbildung an, sind aber nicht Teil des regulären Militärs."@de,
+        "Offer military training but are not part of the regular military"@en ;
+    dct:language "de"@de,
+        "de"@en ;
+    dct:title "Vormilitärische Organisationen"@de,
+        "Pre-military organizations"@en ;
+    skos:inScheme MIA: ;
+    skos:notation "MIA150" ;
+    skos:prefLabel "Vormilitärische Organisationen"@de,
+        "Premilitary Organizations"@en ;
+    skos:scopeNote """Hinw: zB DOSAAF, GST, NSFK, NSKK ...
+siehe: MIS620 Militärische Sportarten, Wehrsportarten, vormilitärische Ausbildung"""@de,
+        "Note: Examples include DOSAAF, GST, NSFK, NSKK...; See: MIS620 Military Sports, Defense Sports, Premilitary Training."@en ;
+    kos:topConceptOf MIA: .
+
+
+
 MIA:MIA200 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
         "Members of the Bundeswehr" ;
