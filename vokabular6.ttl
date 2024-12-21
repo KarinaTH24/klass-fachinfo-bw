@@ -4,7 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 MIA: a skos:ConceptScheme ;
-    dct:title "MIlitärwesen Allgemein"@de ;
+    dct:title "Militärwesen Allgemein"@de ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept MIA:MIA100, MIA:MIA102 ;
     vann:preferredNamespaceUri "https://example.org/MIA#" .
