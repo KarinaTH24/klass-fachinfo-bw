@@ -235,7 +235,7 @@ MIA:MIA141 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
         "Members of the Bundeswehr" ;
     dct:description "Paramilitärische oder militärische Einheiten, die primär für die Aufrechterhaltung der öffentlichen Ordnung und die Bekämpfung von inneren Unruhen innerhalb eines Staates zuständig sind"@de,
-    "Paramilitary or military units primarily responsible for maintaining public order and combating internal unrest within a state"@en,
+    "Paramilitary or military units primarily responsible for maintaining public order and combating internal unrest within a state"@en;
     dct:language "de"@de,
         "de"@en ;
     dct:title "Grenztruppen, Grenzpolizei"@de,
