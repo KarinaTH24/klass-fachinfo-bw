@@ -9,25 +9,15 @@ MIA: a skos:ConceptScheme ;
     skos:hasTopConcept MIA:MIA100, MIA:MIA102 ;
     vann:preferredNamespaceUri "https://example.org/MIA#" .
 
-MIA:MIA100 a skos:Concept ;
-    skos:prefLabel "Militärwesen allgemein"@de ;
-    skos:topConceptOf MIA: ;
-    skos:inScheme MIA: .
 
 MIA:MIA102 a skos:Concept ;
-    skos:prefLabel "Personalwesen in den Streitkräften allgemein"@de ;
+    skos:prefLabel "Personalwesen in den Streitkräften allgemein"@de, "Human resources in the armed forces in general"@en ;
+     dct:language "de"@de,
+        "de"@en ;
     skos:narrower MIA:MIA103 ;
     skos:topConceptOf MIA: ;
     skos:inScheme MIA: .
 
-MIA:MIA103 a skos:Concept ;
-    skos:prefLabel "Geschichte der Wehrsysteme"@de ;
-    skos:inScheme MIA: .
-
-MIA:MIA108 a skos:Concept ;
-    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de , "Testengl"@en ;
-    dct:title "Bedeutende Einzelpersonen, die eine wichtige Rolle in der Geschichte und Entwicklung der militärischen Institutionen eines Landes gespielt haben ohne Spezialisierung auf Land, Luft oder See" ;
-    skos:inScheme MIA: .
 
 MIA:MIA000 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -113,6 +103,14 @@ MIA:MIA100 a skos:Concept ;
     skos:prefLabel "Wehrsysteme, Gesamtstreitkräfte, strategische Truppengliederungen, paramilitärische Organisationen"@de,
         "Defense Systems"@en ;
     skos:topConceptOf MIA: .
+
+MIA:MIA102 a skos:Concept ;
+    skos:prefLabel "Personalwesen in den Streitkräften allgemein"@de, "Human resources in the armed forces in general"@en ;
+     dct:language "de"@de,
+        "de"@en ;
+    skos:narrower MIA:MIA103 ;
+    skos:topConceptOf MIA: ;
+    skos:inScheme MIA: .   
 
 MIA:MIA103 a skos:Concept ;
     dct:audience "Angehörige der  Bundeswehr",
@@ -317,7 +315,6 @@ MIA:MIA150 a skos:Concept ;
 siehe: MIS620 Militärische Sportarten, Wehrsportarten, vormilitärische Ausbildung"""@de,
         "Note: Examples include DOSAAF, GST, NSFK, NSKK...; See: MIS620 Military Sports, Defense Sports, Premilitary Training."@en ;
     skos:topConceptOf MIA: .
-
 
 
 MIA:MIA200 a skos:Concept ;
@@ -525,8 +522,7 @@ MIA:MIA220 a skos:Concept ;
     dct:audience "Angehörige der Bundeswehr",
         "Members of the Bundeswehr" ;
     dct:description "Allgemeine Themen der Personalführung , Personalbearbeitung in den Streitkäften"@de,
-        """General topics of personnel management, personnel processing in the dispute areas
-"""@en ;
+        "General topics of personnel management, personnel processing in the dispute areas"@en ;
     dct:language "de"@de,
         "de"@en ;
     dct:title "Allgemeine Personalführung, Personalbearbeitung in Streitkräften"@de,
