@@ -4,22 +4,30 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 MIA: a skos:ConceptScheme ;
-    dct:title "Klassifikation Bundeswehr"@de ;
+    dct:title "Klassifikation FachInfoUstgBw, 3. Auflage 2020"@de ;
+    dct:audience "Angehörige der  Bundeswehr"@de,
+        "Members of the Bundeswehr"@en ;
+    dct:description "Diese Klassifikation basiert auf der Fachinformationsunterstützung der Bundeswehr (Klassifikation FachInfoUstgBw)."@de,
+        "This classification is based on the specialized information support of the German Armed Forces (Klassifikation FachInfoUstgBw)."@en ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept MIA:MIA100, MIA:MIA102 ;
+    skos:hasTopConcept MIA:MIA000, MIA:MIA001, MIA:MIA002, MIA:MIA008, MIA:MIA100, MIA:MIA103, MIA:MIA108, MIA:MIA110, MIA:MIA120, MIA:MIA130, MIA:MIA135, MIA:MIA140, MIA:MIA141, MIA:MIA142, MIA:MIA143, MIA:MIA144, MIA:MIA145, MIA:MIA150 ;
     vann:preferredNamespaceUri "https://example.org/MIA#" .
 
-MIA:MIA100 a skos:Concept ;
-    skos:prefLabel "Militärwesen allgemein"@de ;
-    skos:topConceptOf MIA: ;
+MIA:MIA000 a skos:Concept ;
+    skos:prefLabel "Militärwesen"@de,
+        "Military Affairs"@en ;
+    skos:narrower MIA:MIA001, MIA:MIA002, MIA:MIA008 ;
+    skos:notation "MIA000" ;
+    skos:scopeNote "Hinw.: Allgemeines"@de,
+        "Note: General"@en ;
+    skos:topConceptOF MIA: ;
     skos:inScheme MIA: .
 
-MIA:MIA102 a skos:Concept ;
-    skos:prefLabel "Personalwesen in den Streitkräften allgemein"@de ;
-    skos:narrower MIA:MIA103 ;
-    skos:topConceptOf MIA: ;
-    skos:inScheme MIA: .
+MIA:MIA001 a skos:Concept ;
+    skos:prefLabel "Allgemeine militärische Fachenzyklopädien, Lexika und Fachwörterbücher"@de,
+        "General Military Encyclopedias, Lexicons, and Specialized Dictionaries"@en ;
+    skos:notation "MIA001" ;
+    skos:scopeNote "ausg: MIH001 Fachenzyklopädien, Lexika und Fachwörterbücher der Landstreitkräfte und Landkriegführung; MIL001 Fachenzyklopädien, Lexika und Fachwörterbücher der Luftstreitkräfte und Luftkriegführung; MIM001 Fachenzyklopädien, Lexika und Fachwörterbücher der Marine und Seekriegführung"@de,
+        "Ex: MIH001 Encyclopedias, Lexicons, and Specialized Dictionaries of Land Forces and Land Warfare; MIL001 Encyclopedias, Lexicons, and Specialized Dictionaries of Air Forces and Air Warfare; MIM001 Encyclopedias, Lexicons, and Specialized Dictionaries of Naval Forces and Naval Warfare."@en ;
+    skos:inScheme KlassBW: .
 
-MIA:MIA103 a skos:Concept ;
-    skos:prefLabel "Geschichte der Wehrsysteme"@de ;
-    skos:inScheme MIA: .
