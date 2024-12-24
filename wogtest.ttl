@@ -24,13 +24,29 @@ MIA:MIA000 a skos:Concept ;
     skos:notation "MIA000" ;
     skos:scopeNote "Hinw.: Allgemeines"@de,
         "Note: General"@en ;
-    skos:topConceptOF MIA: ;
-    skos:inScheme MIA: .
+    skos:topConceptOf MIA: ..
 
 MIA:MIA001 a skos:Concept ;
     skos:prefLabel "Allgemeine militärische Fachenzyklopädien, Lexika und Fachwörterbücher"@de, "General Military Encyclopedias, Lexicons, and Specialized Dictionaries"@en ;
+    skos:broader MIA:MIA000 ;
     skos:notation "MIA001" ;
     skos:scopeNote "ausg: MIH001 Fachenzyklopädien, Lexika und Fachwörterbücher der Landstreitkräfte und Landkriegführung; MIL001 Fachenzyklopädien, Lexika und Fachwörterbücher der Luftstreitkräfte und Luftkriegführung; MIM001 Fachenzyklopädien, Lexika und Fachwörterbücher der Marine und Seekriegführung"@de,
         "Ex: MIH001 Encyclopedias, Lexicons, and Specialized Dictionaries of Land Forces and Land Warfare; MIL001 Encyclopedias, Lexicons, and Specialized Dictionaries of Air Forces and Air Warfare; MIM001 Encyclopedias, Lexicons, and Specialized Dictionaries of Naval Forces and Naval Warfare."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA002 a skos:Concept ;
+    skos:prefLabel "Allgemeine militärische Fachbibliographien"@de, "General Military Bibliographies"@en ;
+    skos:broader MIA:MIA000 ;
+    skos:notation "MIA002" ;
+    skos:scopeNote "ausg: MIH002 Fachbibliographien der Landstreitkräfte und Landkriegführung; MIL002 Fachbibliographien der Luftstreitkräfte und Luftkriegführung; MIM002 Fachbibliographien der Marine und Seekriegführung"@de,
+        "Ex: MIH002 Specialized Bibliographies of Land Forces and Land Warfare; MIL002 Specialized Bibliographies of Air Forces and Air Warfare; MIM002 Specialized Bibliographies of Naval Forces and Naval Warfare."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA008 a skos:Concept ;
+    skos:prefLabel "Persönlichkeiten der Streitkräfte"@de, "Personalities of the Armed Forces"@en ;
+    skos:broader MIA:MIA000 ;
+    skos:notation "MIA008" ;
+    skos:scopeNote "Hinw.: Biographien; ausg: MIH008 Persönlichkeiten der Landstreitkräfte; MIL008 Persönlichkeiten der Luftstreitkräfte; MIM008 Persönlichkeiten der Seestreitkräfte"@de,
+        "Note: Biographies; Ex: MIH008 Personalities of Land Forces; MIL008 Personalities of Air Forces; MIM008 Personalities of Naval Forces."@en ;
     skos:inScheme MIA: .
 
