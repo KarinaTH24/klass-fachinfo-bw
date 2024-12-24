@@ -22,8 +22,14 @@ MIA:MIA000 a skos:Concept ;
     skos:prefLabel "Militärwesen"@de, "Military Affairs"@en ;
     skos:narrower MIA:MIA001, MIA:MIA002, MIA:MIA008 ;
     skos:notation "MIA000" ;
-    skos:scopeNote "Hinw.: Allgemeines"@de,
-        "Note: General"@en ;
+    skos:scopeNote "Hinw.: Allgemeines"@de, "Note: General"@en ;
+    skos:topConceptOf MIA: .
+
+MIA:MIA100 a skos:Concept ;
+    skos:prefLabel "Wehrsysteme, Gesamtstreitkräfte, strategische Truppengliederungen, paramilitärische Organisationen"@de,"Defense Systems"@en ;
+    skos:narrower MIA:MIA103, MIA:MIA108 ;
+    skos:notation "MIA100" ;
+    skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de, "Note: ALWAYS assign a corresponding MIG... notation."@en ;
     skos:topConceptOf MIA: .
 
 MIA:MIA001 a skos:Concept ;
@@ -50,3 +56,16 @@ MIA:MIA008 a skos:Concept ;
         "Note: Biographies; Ex: MIH008 Personalities of Land Forces; MIL008 Personalities of Air Forces; MIM008 Personalities of Naval Forces."@en ;
     skos:inScheme MIA: .
 
+MIA:MIA103 a skos:Concept ;
+    skos:prefLabel "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de, "Unified Armed Forces"@en ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA103" ;
+    skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de, Note: ALWAYS assign a corresponding MIG... notation."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA108 a skos:Concept ;
+    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de, "Strategic Force Structures"@en ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA108" ;
+    skos:scopeNote "Hinw: Auch Personen von SA und SS (Biographien)"@de, "Note: Also includes individuals from SA and SS (Biographies)."@en ;
+    skos:inScheme MIA: .
