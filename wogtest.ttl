@@ -57,15 +57,29 @@ MIA:MIA008 a skos:Concept ;
     skos:inScheme MIA: .
 
 MIA:MIA103 a skos:Concept ;
-    skos:prefLabel "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de, "Unified Armed Forces"@en ;
+    skos:prefLabel "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de, "History of military systems, overall armed forces, strategic troop structures, and paramilitary organizations"@en ;
     skos:broader MIA:MIA100 ;
     skos:notation "MIA103" ;
     skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de, "Note: ALWAYS assign a corresponding MIG... notation."@en ;
     skos:inScheme MIA: .
 
 MIA:MIA108 a skos:Concept ;
-    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de, "Strategic Force Structures"@en ;
+    skos:prefLabel "Personen paramilitärischer und vormilitärischer Organisationen"@de, "Individuals in paramilitary and pre-military organizations"@en ;
     skos:broader MIA:MIA100 ;
     skos:notation "MIA108" ;
     skos:scopeNote "Hinw: Auch Personen von SA und SS (Biographien)"@de, "Note: Also includes individuals from SA and SS (Biographies)."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA110 a skos:Concept ;
+    skos:prefLabel "Wehrsysteme"@de, "Military systems"@en ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA110" ;
+    skos:scopeNote "Hinw: zB Wehrpflichtarmee, Berufsarmee, Milizsystem"@de, "Note: Examples include conscription armies, professional armies, and militia systems."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA120 a skos:Concept ;
+    skos:prefLabel "Gesamtstreitkräfte"@de, "Overall armed forces"@en ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA120" ;
+    skos:scopeNote "Hinw: Gesamtdarstellungen der Streitkräfte, einschließlich ihrer Wehrstruktur, Gliederung und Organisation."@de, "Note: Comprehensive overviews of armed forces, including their defense structure, composition, and organization."@en ;
     skos:inScheme MIA: .
