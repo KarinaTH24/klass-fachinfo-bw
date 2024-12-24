@@ -13,6 +13,12 @@ MIA: a skos:ConceptScheme ;
     skos:hasTopConcept MIA:MIA000, MIA:MIA001, MIA:MIA002, MIA:MIA008, MIA:MIA100, MIA:MIA103, MIA:MIA108, MIA:MIA110, MIA:MIA120, MIA:MIA130, MIA:MIA135, MIA:MIA140, MIA:MIA141, MIA:MIA142, MIA:MIA143, MIA:MIA144, MIA:MIA145, MIA:MIA150 ;
     vann:preferredNamespaceUri "https://example.org/MIA#" .
 
+MIA: a skos:Concept ;
+    skos:prefLabel "Militärwesen allgemein"@de,
+        "Military Affairs in General"@en ;
+    skos:notation "MIA000" ;
+    skos:topConceptOF MIA: .
+
 MIA:MIA000 a skos:Concept ;
     skos:prefLabel "Militärwesen"@de,
         "Military Affairs"@en ;
