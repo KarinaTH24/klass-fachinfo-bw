@@ -24,7 +24,7 @@ MIA:MIA000 a skos:Concept ;
     skos:notation "MIA000" ;
     skos:scopeNote "Hinw.: Allgemeines"@de,
         "Note: General"@en ;
-    skos:topConceptOf MIA: ..
+    skos:topConceptOf MIA: .
 
 MIA:MIA001 a skos:Concept ;
     skos:prefLabel "Allgemeine militärische Fachenzyklopädien, Lexika und Fachwörterbücher"@de, "General Military Encyclopedias, Lexicons, and Specialized Dictionaries"@en ;
