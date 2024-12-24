@@ -98,3 +98,52 @@ MIA:MIA135 a skos:Concept ;
     skos:notation "MIA135" ;
     skos:scopeNote "ausg: MIP200 Internationale oder supranationale Friedenstruppe und Beobachter; MIH113 Nationale und multinationale Großverbände der Landstreitkräfte; MIM113 Nationale und multinationale Flotten und Großverbände der Seestreitkräfte, Marine-Einsatzgruppen; MIL113 Nationale und multinationale Großverbände der Luftstreitkräfte"@de, "Ex: MIP200 International or Supranational Peacekeeping Forces and Observers; MIH113 National and Multinational Large Formations of Land Forces; MIM113 National and Multinational Fleets and Large Formations of Naval Forces, Naval Task Forces; MIL113 National and Multinational Large Formations of Air Forces."@en ;
     skos:inScheme MIA: .
+
+MIA:MIA140 a skos:Concept ;
+    skos:prefLabel "Paramilitärische Organisationen"@de, "Paramilitary organizations"@en ;
+    skos:narrower MIA:MIA141, MIA:MIA142, MIA:MIA143, MIA:MIA144, MIA:MIA145 ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA140" ;
+    skos:inScheme MIA: .
+
+MIA:MIA141 a skos:Concept ;
+    skos:prefLabel "Grenztruppen, Grenzpolizei"@de, "Border troops, border police"@en ;
+    skos:broader MIA:MIA140 ;
+    skos:notation "MIA141" ;
+    skos:scopeNote "ausg: MIM170 Küstenwache in Gesamtdarstellungen, Verbände der Küstenwache; siehe: MIK540 Grenzsicherung"@de, "Ex: MIM170 Coast Guard in Comprehensive Representations, Coast Guard Units; See: MIK540 Border Security."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA142 a skos:Concept ;
+    skos:prefLabel "Innere Truppen"@de, "Internal troops"@en ;
+    skos:broader MIA:MIA140 ;
+    skos:notation "MIA142" ;
+    skos:inScheme MIA: .
+
+MIA:MIA143 a skos:Concept ;
+    skos:prefLabel "Guerillaorganisationen, Paramilitärische Befreiungsbewegungen"@de, "Guerrilla Organizations, Paramilitary Liberation Movements"@en ;
+    skos:broader MIA:MIA140 ;
+    skos:notation "MIA143" ;
+    skos:scopeNote "siehe: MIH362 Guerillakriegführung,Guerillataktik; POL551 Innere Unruhen, Aufstand, Revolution, Staatsstreich; POL632 Separatistische Bewegungen"@de, "See: MIH362 Guerrilla Warfare, Guerrilla Tactics; POL551 Internal Disturbances, Uprising, Revolution, Coup d'État; POL632 Separatist Movements."@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA144 a skos:Concept ;
+    skos:prefLabel "Bewaffnete Verbände nichtstaatlicher Organisationen"@de, "Armed groups of non-state organizations"@en ;
+    skos:broader MIA:MIA140 ;
+    skos:notation "MIA144" ;
+    skos:inScheme MIA: .
+
+MIA:MIA145 a skos:Concept ;
+    skos:prefLabel "Historische Ritterorden"@de, "Historical Knightly Orders"@en ;
+    skos:broader MIA:MIA140 ;
+    skos:notation "MIA145" ;
+    skos:inScheme MIA: .
+
+MIA:MIA150 a skos:Concept ;
+    skos:prefLabel "Vormilitärische Organisationen"@de, "Pre-military organizations"@en ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA150" ;
+    skos:scopeNote "Hinw: zB DOSAAF, GST, NSFK, NSKK ...; siehe: MIS620 Militärische Sportarten, Wehrsportarten, vormilitärische Ausbildung"@de, "Note: Examples include DOSAAF, GST, NSFK, NSKK...; See: MIS620 Military Sports, Defense Sports, Premilitary Training."@en ;
+    skos:inScheme MIA: .
+
+
+
