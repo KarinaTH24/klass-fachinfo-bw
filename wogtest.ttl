@@ -60,7 +60,7 @@ MIA:MIA103 a skos:Concept ;
     skos:prefLabel "Geschichte der Wehrsysteme, Gesamtstreitkräfte, strategischen Truppengliederungen und paramilitärischen Organisationen"@de, "Unified Armed Forces"@en ;
     skos:broader MIA:MIA100 ;
     skos:notation "MIA103" ;
-    skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de, Note: ALWAYS assign a corresponding MIG... notation."@en ;
+    skos:scopeNote "Hinw: IMMER auch eine entsprechende MIG... Notation vergeben"@de, "Note: ALWAYS assign a corresponding MIG... notation."@en ;
     skos:inScheme MIA: .
 
 MIA:MIA108 a skos:Concept ;
