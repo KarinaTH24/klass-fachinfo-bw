@@ -16,7 +16,7 @@ MIA: a skos:ConceptScheme ;
 MIA: a skos:Concept ;
     skos:prefLabel "Militärwesen allgemein"@de,
         "Military Affairs in General"@en ;
-    skos:notation "MIA000" ;
+    skos:notation "MIA" ;
     skos:topConceptOF MIA: .
 
 MIA:MIA000 a skos:Concept ;
