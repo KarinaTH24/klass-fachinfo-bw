@@ -83,3 +83,18 @@ MIA:MIA120 a skos:Concept ;
     skos:notation "MIA120" ;
     skos:scopeNote "Hinw: Gesamtdarstellungen der Streitkräfte, einschließlich ihrer Wehrstruktur, Gliederung und Organisation."@de, "Note: Comprehensive overviews of armed forces, including their defense structure, composition, and organization."@en ;
     skos:inScheme MIA: .
+
+MIA:MIA130 a skos:Concept ;
+    skos:prefLabel "Strategische und teilstreitkraftübergreifende operative Truppengliederungen und Kommandobereiche"@de, "Strategic and inter-branch operational troop structures and command areas"@en ;
+    skos:narrower MIA:MIA135 ;
+    skos:broader MIA:MIA100 ;
+    skos:notation "MIA130" ;
+    skos:scopeNote "Strategische und teilstreitkraftübergreifende operative Truppengliederungen und Kommandobereiche"@de, "Individuals in Paramilitary and Premilitary Organizations"@en ;
+    skos:inScheme MIA: .
+
+MIA:MIA135 a skos:Concept ;
+    skos:prefLabel "Teilstreitkraftübergreifende multinationale Streitkräfte"@de, "Inter-branch multinational armed forces"@en ;
+    skos:broader MIA:MIA130 ;
+    skos:notation "MIA135" ;
+    skos:scopeNote "ausg: MIP200 Internationale oder supranationale Friedenstruppe und Beobachter; MIH113 Nationale und multinationale Großverbände der Landstreitkräfte; MIM113 Nationale und multinationale Flotten und Großverbände der Seestreitkräfte, Marine-Einsatzgruppen; MIL113 Nationale und multinationale Großverbände der Luftstreitkräfte"@de, "Ex: MIP200 International or Supranational Peacekeeping Forces and Observers; MIH113 National and Multinational Large Formations of Land Forces; MIM113 National and Multinational Fleets and Large Formations of Naval Forces, Naval Task Forces; MIL113 National and Multinational Large Formations of Air Forces."@en ;
+    skos:inScheme MIA: .
