@@ -151,7 +151,7 @@ MIA:MIA200 a skos:Concept ;
         "Human resources in the armed forces in general"@en ;
     skos:notation "MIA200" ;
     skos:scopeNote "Hinw: Bei teilstreitkraftspezifischen Dokumenten klassiere zusätzlich MIH114, MIL114, MIM114. Siehe: BWL500, VWW410, MIS220"@de,
-        "Note: For branch-specific documents, also classify MIH114, MIL114,
+        "Note: For branch-specific documents, also classify MIH114, MIL114, MIM114. Also: BWL500, VWW410, MIS220"@en,
     skos:inScheme MIA: .
 
 MIA:MIA201 a skos:Concept ;
