@@ -167,8 +167,3 @@ MIA:MIA202 a skos:Concept ;
     skos:notation "MIA202" ;
     skos:narrower "MIA200" ;
     skos:inScheme MIA: .
-
-
-
-
-    
