@@ -166,4 +166,39 @@ MIA:MIA202 a skos:Concept ;
         "Specialist bibliographies of general military personnel management"@en ;
     skos:notation "MIA202" ;
     skos:broader "MIA200" ;
-    skos:inScheme MIA: .                                                                                                                                                                                                                                                        
+    skos:inScheme MIA: .   
+
+MIA:MIA203 a skos:Concept ;
+skos:prefLabel "Geschichte des allgemeinen militärischen Personalwesens"@de,
+        "History of general military personnel management"@en ;
+skos:notation "MIA203" ;
+skos:scopeNote "Hinw: immer auch eine entsprechende MIG... Notation vergeben"@de,
+        "Note: always assign a corresponding MIG... notation"@en ;
+skos:broader "MIA200" ;
+skos:inScheme MIA: . 
+
+MIA:MIA207 a skos:Concept ;
+skos:prefLabel "Organisation und Institutionen des allgemeinen militärischen Peronalwesens"@de,
+        "Organization and institutions of general military personnel"@en ;
+skos:notation "MIA207" ;
+skos:broader "MIA200" ;
+skos:inScheme MIA: .
+
+MIA:MIA210 a skos:Concept ;
+skos:prefLabel "Personalplanung, Personalbedarf, Personalstruktur der Streitkräfte"@de,
+        "Personnel planning, personnel requirements, personnel structure of the armed forces"@en ;
+skos:narrower MIA:MIA211, MIA:MIA212, MIA:MIA213, MIA:MIA215, MIA:MIA218 ;
+skos:notation "MIA210" ;
+skos:inScheme MIA: .
+
+
+
+
+
+
+
+
+
+
+
+
