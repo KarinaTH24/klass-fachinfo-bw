@@ -166,4 +166,4 @@ MIA:MIA202 a skos:Concept ;
         "Specialist bibliographies of general military personnel management"@en ;
     skos:notation "MIA202" ;
     skos:narrower "MIA200" ;
-    skos:inScheme MIA: .
+    skos:inScheme MIA: .                                                                                                                                                                                                                                                        
