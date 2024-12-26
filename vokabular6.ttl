@@ -237,8 +237,7 @@ MIA:MIA141 a skos:Concept ;
     dct:language "de"@de,
         "de"@en ;
     dct:title "Grenztruppen, Grenzpolizei"@de,
-    "Border troops, border police"@en,
-        ;
+    "Border troops, border police"@en ;
     skos:inScheme MIA: ;
     skos:notation "MIA141" ;
     skos:prefLabel "Grenztruppen, Grenzpolizei"@de,
