@@ -174,6 +174,7 @@ MIA:MIA207 a skos:Concept ;
 MIA:MIA210 a skos:Concept ;
     skos:prefLabel "Personalplanung, Personalbedarf, Personalstruktur der Streitkräfte"@de, "Personnel planning, personnel requirements, personnel structure of the armed forces"@en ;
     skos:narrower MIA:MIA211, MIA:MIA212, MIA:MIA213, MIA:MIA215, MIA:MIA218 ;
+    skos:broader MIA:MIA200 ;
     skos:notation "MIA210" ;
     skos:inScheme MIA: .
 
@@ -212,6 +213,7 @@ MIA:MIA218 a skos:Concept ;
 
 MIA:MIA220 a skos:Concept ;
     skos:narrower MIA:MIA221 ;
+    skos:broader MIA:MIA200 ;
     skos:notation "MIA220" ;
     skos:prefLabel "Allgemeine Personalführung, Personalbearbeitung in Streitkräften"@de,
         "General personnel management, personnel processing in the armed forces"@en ;
@@ -230,12 +232,24 @@ MIA:MIA221 a skos:Concept ;
 
 MIA:MIA230 a skos:Concept ;
     skos:notation "MIA230" ;
+    skos:broader MIA:MIA200 ;
     skos:prefLabel "Personalauswahl"@de,
         "Selection of personnel"@en ;
     skos:inScheme MIA: .
 
+MIA:MIA240 a skos:Concept ;
+    skos:notation "MIA240" ;
+    skos:broader MIA:MIA200 ;
+    skos:prefLabel "Versetzung, Kommandierung"@de,
+        "Transfer, command"@en ;
+    skos:inScheme MIA: .
+    
+
+
+
 MIA:MIA250 a skos:Concept ;
     skos:notation "MIA250" ;
+    skos:broader MIA:MIA200 ;
     skos:prefLabel "Beendigung des Dienstverhältnisses, Soldatenversorgung"@de,
         "Termination of employment, soldier's pension"@en ;
     skos:scopeNote "ausg:MIA330 Recht der Fürsorge für Soldaten, militärisches Besoldungs- und Versorgungsrecht, Urlaubsrecht"@de,
@@ -244,12 +258,14 @@ MIA:MIA250 a skos:Concept ;
 
 MIA:MIA260 a skos:Concept ;
     skos:notation "MIA260" ;
+    skos:broader MIA:MIA200 ;
     skos:prefLabel "Personalführung der Mannschaften"@de,
         "Personnel management of crews"@en ;
     skos:inScheme MIA: .
 
 MIA:MIA270 a skos:Concept ;
     skos:notation "MIA270" ;
+    skos:broader MIA:MIA200 ;
     skos:prefLabel "Personalführung der Unteroffiziere"@de,
         "Personnel management of non-commissioned officers"@en ;
     skos:scopeNote "Hinw:einschließlich Fähnriche (Feldwebelleutnante) als Dienstgradgruppe"@de,
@@ -258,6 +274,7 @@ MIA:MIA270 a skos:Concept ;
 
 MIA:MIA280 a skos:Concept ;
     skos:narrower MIA:MIA281, MIA:MIA282, MIA:MIA283 ;
+    skos:broader MIA:MIA200 ;
     skos:notation "MIA280" ;
     skos:prefLabel "Personalführung der Offiziere"@de,
         "Personnel management of officers"@en ;
